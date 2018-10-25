@@ -14,6 +14,7 @@
 */
 
 /* Window and Body Styles */
+/* Code within this area determine the size of the page. */
 html {
     height: 100%;
 }
@@ -36,6 +37,7 @@ a {
 }
 
 /* Row Styles */
+/* This code controls the rows within the grid  */
 .row::after {
     clear: both;
     content: "";
@@ -46,6 +48,7 @@ a {
 
 
 /* Page Header Styles */
+/* The code here moves the padding and width of the header nav to fit the page  and move it left*/
 body>header>img {
     display: block;
     width: 70%;
@@ -66,6 +69,7 @@ body>header>nav>ul>li {
 }
 
 /* Horizontal Navigation List Styles */
+/* The nav here  allows the nav to be horizontal and below the header*/
 nav.horizontal ul li {
     display: block;
     width: 12.5%;
@@ -75,6 +79,7 @@ nav.horizontal ul li {
 
 
 /* Topics Styles */
+/* The topics styles fits the pictures below the nav */
 ul#topics li {
     display: block;
     width: 20%;
@@ -100,6 +105,7 @@ ul#topics li img {
 }
 
 /* HR Styles */
+/* This shrinks the hr line down to 50% */
 hr {
     width: 50%;
 }
@@ -107,6 +113,7 @@ hr {
 
 
 /* Customer Comment Styles */
+/* The code here changes and fits the paragraphs and imgs above the footer and below the topics */
 ul#comments {
     width: 75%;
     margin: 40px auto 40px auto;
@@ -133,6 +140,7 @@ ul#comments li p {
 }
 
 /* Footer Styles */
+/* This keeps the comments from fallinf below the footer */
 footer {
     clear: both;
 }
